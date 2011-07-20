@@ -1,0 +1,27 @@
+Song:
+  Tempo: 94
+  Flow:
+    # Short 2 bar intro
+    - Intro:  x1
+    - Verse:  x2
+    - Hat_OpenVerse:  x2
+
+  Kit:
+    - kick:     samples/SCP_KICK_01.wav
+    - snare:    samples/SCP_SNARE_02.wav
+    - hat:      samples/SCP_HAT_02.wav
+    - hat_open: samples/SCP_OPEN_HAT_01.wav
+
+Intro:
+  - hat:      |X.X...X.X...X.X.|..X.X...X.X...X.|
+
+Hat_OpenVerse:
+  - kick:     |X.........X.....|X.........X.....|X........XX.....|X........XX.....|
+  - snare:    |....X.......X...|....X.......X...|....X.......X...|....X.......X...|
+  - hat:      |X.X...X.X..X.XX.|X.X...X.X..X.XX.|X..X....X..X..X.|X..X....X..X..X.|
+  - hat_open: |................|................|....X.......X...|....X.......X...|
+
+Verse:
+  - kick:     |X.........X.....|X.........X.....|X.........X.....|X........XX.....|
+  - snare:    |....X.......X...|....X.......X...|....X.......X...|....X.......X...|
+  - hat:      |X.X...X.X..X.XX.|X.X...X.X..X.XX.|X.X...X.X..X.XX.|X.X...X.X..X.XX.|
