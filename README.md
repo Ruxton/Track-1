@@ -11,6 +11,7 @@ Track 1 is a collaborative effort, a small experiment if you will, based around 
 ``` bash
 gem install beats
 ```
+
 ## How to join in
 1. Fork project
 2. Add your samples to the samples folder keeping them organised and named nicely
